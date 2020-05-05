@@ -6,13 +6,13 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/aidar/Downloads/Chocomarket-hackaton-18f88dd7e4a1.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '../somefile.json'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '-rih%v5y-86reu#eq4!*%m1=str9w605q=i%^jykrkzz7e!j3$'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
