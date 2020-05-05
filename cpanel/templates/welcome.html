@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<form action="/products/" method="post">
+    {% csrf_token %}
+    Welcome {{user}}
+
+    Delivery :
+    <input id="fileupload" name="myfile" type="file" />
+
+    <!-- Text:
+    <input type="textarea" name="pass"> -->
+
+
+    <input type="submit" value="SignIn">
+</form>
+
+</body>
+</html>
+
+<!-- test2@dsdsd.com
+Qwer123! -->
