@@ -13,27 +13,19 @@ from django.views.decorators.csrf import csrf_protect
 
 
 
-# storage_client = storage.Client()
 
-# storage_client = storage.Client.from_service_account_json(
-#         '/Users/aidar/Downloads/Chocomarket-hackaton-18f88dd7e4a1.json'
-# )
-
-
-# buckets = list(storage_client.list_buckets())
-# print(buckets)
 
 dbfirestore = firestore.Client()
 
 config = {
-  'apiKey': "AIzaSyCC8mabGyl5eK4WUpMoXw067ZpvipJuwf0",
-  'authDomain': "chocomarket-hackaton-b9628.firebaseapp.com",
-  'databaseURL': "https://chocomarket-hackaton-b9628.firebaseio.com",
-  'projectId': "chocomarket-hackaton-b9628",
-  'storageBucket': "chocomarket-hackaton-b9628.appspot.com",
-  'messagingSenderId': "1062233292930",
-  'appId': "1:1062233292930:web:828a24518773775ff7749b",
-  'measurementId': "G-QJQZ564RT1" }
+  'apiKey': "",
+  'authDomain': "",
+  'databaseURL': "",
+  'projectId': "",
+  'storageBucket': "",
+  'messagingSenderId': "",
+  'appId': "",
+  'measurementId': "G-" }
 
 firebase = pyrebase.initialize_app(config)
 
